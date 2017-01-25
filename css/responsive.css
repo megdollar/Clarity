@@ -126,10 +126,10 @@
 
 	#nav {
    		background-color : #ffffff;
-   		width : 35%;
+   		width : 25%;
    		float: right;
    		margin-top: 25px;
-   		display:inline-block;
+   		display: inline;
   	
   }
 } 
