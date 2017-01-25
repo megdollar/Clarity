@@ -1,5 +1,10 @@
 @media (min-width: 500px) {
 	#main {
+		display: -webkit-box;
+    	display: -moz-box;
+    	display: -ms-flexbox;
+    	display: -moz-flex;
+    	display: -webkit-flex;
   		display: flex;
   		flex-wrap: wrap;
 	}
@@ -7,8 +12,10 @@
 	#content{
 		width: 60%;
 		display: block;
-		padding-left: 10px;
+		padding-left: 20px;
+		margin-right: 20px;
 	}
+
 	.clarityConference {
 		width: 40%;
 		display: inline;
@@ -20,16 +27,43 @@
 		display: inline;
 	}
 
-	#social, #links {
+	.connect {
 		margin: 15px;
 		height: 30%;
+		width: 30%;
+	}
+	#social, #links {
 		padding: 10px;
-		width: 20%;
-		border: solid;
-		border-width: 1px;
-		border-color: gray;
+		border-style: groove;
+		border-width: 2px;
+		border-color: lightgray;
+		margin-bottom: 20px;
 	}
 
+	#grad {
+		height: 30px;
+	}
+
+	.dropbtn {
+		display: none;
+	}
+
+	.dropdown-content {
+		width: 25%;
+		float: right;
+		background-color: white;
+		display: inline;
+	}
+
+	.menu {
+		font-size: 0.8em;
+		border-style: none;
+		background-color: white;
+
+	}
+
+	.divider {
+		display: inline;
 	}
 
 
