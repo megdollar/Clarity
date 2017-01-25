@@ -1,10 +1,10 @@
 @media (min-width: 500px) {
 	#main {
 		display: -webkit-box;
-    	display: -moz-box;
-    	display: -ms-flexbox;
-    	display: -moz-flex;
-    	display: -webkit-flex;
+    		display: -moz-box;
+    		display: -ms-flexbox;
+    		display: -moz-flex;
+    		display: -webkit-flex;
   		display: flex;
   		flex-wrap: wrap;
 	}
@@ -33,7 +33,7 @@
 		width: 30%;
 	}
 	#social, #links {
-		padding: 10px;
+		padding: 0px 10px 10px 10px;
 		border-style: groove;
 		border-width: 2px;
 		border-color: lightgray;
