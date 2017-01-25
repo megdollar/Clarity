@@ -35,9 +35,12 @@ a:link {
 .clarityMainPhoto {
 	width: 100%;
 }
-
+.divider {
+	display: none;
+}
 
 .dropdown-content {
+	left:0;
     display: none;
     position: absolute;
     margin-right: 10px;
@@ -61,6 +64,7 @@ a:link {
 	border-style: solid;
 	border-width: 1px;
 }
+
 
 #grad {
 	margin-top: 10px;
