@@ -38,7 +38,7 @@
 	#nav:hover .dropdown-content {
     		display: block;
 	}
-	#nav:not ( :hover ) .drop-downcontent {
+	#nav .drop-downcontent {
 		display:none;
 	}
 	.menu {
